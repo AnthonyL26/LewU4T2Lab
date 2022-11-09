@@ -41,4 +41,13 @@ public class StringLoops
         }
         return result;
     }
+    public String reverseString2(String origString) {
+        String result = "";
+        for (int i = 0; i < origString.length(); i++) {
+            result = origString.charAt(i) + result;
+
+        }
+        return result;
+    }
+
 }
